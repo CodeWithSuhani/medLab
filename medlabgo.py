@@ -264,7 +264,6 @@ class medlabgo:
                s=s+costs[i]
           gst=(18/100)*18
           amt=s+gst
-          print("A visit is always recommended:Do you want to book a test at home or clinic?")
 
           report=open("{}.txt".format(name),"w")
           report_list=["NAME:{}".format(name),"AGE:{}".format(age),"GENDER:{}".format(gen),"DATE:{}".format(date),"HOME ADDRESS:{}".format(hadd),"CITY:{}".format(city),"Ph.No.:{}".format(pn),"E-Mail:{}".format(em),""]
